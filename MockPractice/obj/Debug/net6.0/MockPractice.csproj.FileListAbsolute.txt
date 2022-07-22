@@ -1,0 +1,15 @@
+G:\C#Program\MockPractice\bin\Debug\net6.0\MockPractice.exe
+G:\C#Program\MockPractice\bin\Debug\net6.0\MockPractice.deps.json
+G:\C#Program\MockPractice\bin\Debug\net6.0\MockPractice.runtimeconfig.json
+G:\C#Program\MockPractice\bin\Debug\net6.0\MockPractice.dll
+G:\C#Program\MockPractice\bin\Debug\net6.0\MockPractice.pdb
+G:\C#Program\MockPractice\obj\Debug\net6.0\MockPractice.csproj.AssemblyReference.cache
+G:\C#Program\MockPractice\obj\Debug\net6.0\MockPractice.GeneratedMSBuildEditorConfig.editorconfig
+G:\C#Program\MockPractice\obj\Debug\net6.0\MockPractice.AssemblyInfoInputs.cache
+G:\C#Program\MockPractice\obj\Debug\net6.0\MockPractice.AssemblyInfo.cs
+G:\C#Program\MockPractice\obj\Debug\net6.0\MockPractice.csproj.CoreCompileInputs.cache
+G:\C#Program\MockPractice\obj\Debug\net6.0\MockPractice.dll
+G:\C#Program\MockPractice\obj\Debug\net6.0\refint\MockPractice.dll
+G:\C#Program\MockPractice\obj\Debug\net6.0\MockPractice.pdb
+G:\C#Program\MockPractice\obj\Debug\net6.0\MockPractice.genruntimeconfig.cache
+G:\C#Program\MockPractice\obj\Debug\net6.0\ref\MockPractice.dll

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		function Krishnamurthy(number,callback)
+		{
+			var sum=0,digit=0;
+			var temp=number;
+
+			while(temp!=0)
+			{
+				digit=temp%10;
+				var f=callback(digit);
+				sum=sum+digit;
+				temp=temp/10;
+			}
+
+			if(sum==number)
+			{
+				alert("no is krishnmurthy");
+			}
+			else
+			{
+				alert("not krishnmurthy");
+			}
+
+		}
+
+		function factorial(a)
+		{
+			var fact=1;
+			for (let i=1;i<=a;i++)
+			{
+				fact=fact*i;
+				
+			}
+			return fact;
+		}
+
+		Krishnamurthy(145,factorial)
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

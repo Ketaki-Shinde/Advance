@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		var e={"firstname":"Ketaki",
+				"lastname":"Shinde"};
+
+		var trainer={"firstname":"deepa",
+				"lastname":"Shaha"};
+
+		//common to dispaly data of any
+		function display()
+		{
+			alert("Name : "+this.firstname+"Surname : "+this.lastname);
+		}
+
+		display.call(e);
+		display.call(trainer);		
+
+		function print(city,email,mob)
+		{
+			alert("Name "+this.firstname+" "+"Surname"+this.lastname+" "+"City "+city+" "+"Email"+email );
+		}
+
+		 var arr=["Pune","ketaki@gmail.cim",987573];
+		 //print.apply(e,arr);
+
+		 var ff=print.bind(trainer);
+
+		 ff("Mumbai","gfhe@gmail.com",65413248);
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

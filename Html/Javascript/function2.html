@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		var ob={"ename":"Ketaki",
+				"qualifi":"BE",
+				"display":function()
+						  {
+						  	alert("Name : "+this.ename+" Qualification : "+this.qualifi);
+						  }
+			};
+
+			console.log(ob.ename);
+			ob.display();			
+
+		//constructor function
+	function Student(id,nm,per)
+	{
+		this.sid=id;
+		this.name=nm;
+		this.per=per;
+		this.print=function()
+				   {
+				   		alert("Welcome "+this.name+". Your percent is "+this.percent);
+				   }
+
+	}
+
+	var s3= new Student(1,"Utkarsh",78);
+	var s4=new Student(2,"ketaki",88);
+	console.log(s3);
+	console.log(s4);
+	s3.print();
+
+
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

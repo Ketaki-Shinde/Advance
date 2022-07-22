@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var r=10,g=100,b=0;
+		var id=setInterval(()=>
+				{
+					r=r+5;
+					g=g+5;
+					b=b+5;
+					document.body.style.backgroundColor='rgb(' + r +','+ g + ','+ b +')';
+				},500);
+
+		function stop(){
+			clearInterval(id);
+		}
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+
+		function f1()
+		{
+			var food=document.getElementById("t1").value;
+
+			var myli=document.createElement("li");
+			var txtnode=document.createTextNode(food);
+			myli.appendChild(txtnode);
+
+			var mainlst=document.getElementById("itemlist");
+		}
+	</script>
+</head>
+<body>
+<form>
+	Food Item of your choice:<input type="text" name="t1">
+
+	<input type="button" value="Add to List" onclick="f1()">
+</form>
+<ul id="itemlist">
+	<li>Pav Bhaji</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,15 @@
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\Class_Training_Day1.csproj.AssemblyReference.cache
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\Class_Training_Day1.GeneratedMSBuildEditorConfig.editorconfig
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\Class_Training_Day1.AssemblyInfoInputs.cache
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\Class_Training_Day1.AssemblyInfo.cs
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\Class_Training_Day1.csproj.CoreCompileInputs.cache
+G:\C#Program\Class_Training_Day1\bin\Debug\net6.0\Class_Training_Day1.exe
+G:\C#Program\Class_Training_Day1\bin\Debug\net6.0\Class_Training_Day1.deps.json
+G:\C#Program\Class_Training_Day1\bin\Debug\net6.0\Class_Training_Day1.runtimeconfig.json
+G:\C#Program\Class_Training_Day1\bin\Debug\net6.0\Class_Training_Day1.dll
+G:\C#Program\Class_Training_Day1\bin\Debug\net6.0\Class_Training_Day1.pdb
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\Class_Training_Day1.dll
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\refint\Class_Training_Day1.dll
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\Class_Training_Day1.pdb
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\Class_Training_Day1.genruntimeconfig.cache
+G:\C#Program\Class_Training_Day1\obj\Debug\net6.0\ref\Class_Training_Day1.dll

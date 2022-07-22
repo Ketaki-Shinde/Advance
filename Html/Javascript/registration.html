@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>
+		web page
+	</title>
+	<script type="text/javascript">
+		function Validate()
+		{
+			var data="" ;
+			data=data+document.getElementById('fname').value;
+			data=data+" "+document.getElementById("addre").value;
+			data=data+" "+document.getElementById("mob").value;
+			var arrgender=document.getElementsByName("r1");
+			for(var i=0;i<arrgender.length;i++)
+			{
+				if(arrgender[i].checked)
+					data=data+" "+arrgender[i].value;
+			}
+				var arrtech=document.getElementsByName("ck1");
+			for(var i=0;i<arrtech.length;i++)
+			{
+				if(arrtech[i].checked)
+					data=data+" "+arrtech[i].value;
+			}
+			var cityindx=document.getElementById("s1").selectedIndex;
+			var city=document.getElementById("s1").options[cityindx].value;
+			alert(city);
+			console.log(data);
+
+
+		}
+	</script>
+</head>
+<body>
+   <form method="get" action=" ">
+
+   	Name:<input type="text" name=" " id="fname">
+   	<br>
+   	Adress:<input type="text" name=" " id="addre">
+   	<br>
+	Mobile:<input type="number" name=" " id="mob">
+	<br>
+
+	Gender:<input type="radio" name="r1" value="male">Male
+		   <input type="radio" name="r1" value="female">Female
+	<br>
+
+	Tecnlogy:<input type="checkbox"  name="ck1" value="Java">java
+			<input type="checkbox"  name="ck1" value="c#">c#
+			<input type="checkbox"  name="ck1" value="c++">c++
+			<input type="checkbox"  name="ck1" value="python">python
+	<br>
+
+	city:<select id="s1">
+		<option value="pune">Pune</option>
+		<option value="Satara">Satara</option>
+		<option value="mumbai">Mumbai</option>
+		<option value="nashik">Nashik</option>
+	</select>
+		
+		<input type="button" name=" " value="Validate" onclick="Validate()">
+		<input type="submit" name=" " value="submit"  >
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		//synchronous it wait for whole work to finish and then only starts next work(next method)
+		//asynchronous - if a method takes longer time for doing some processing it won't wait till it completes
+		//immediately it starts with next instruction. setTimeout()  setInterval()
+
+
+		function m1()
+		{
+			console.log("Hiii time finished");
+		}
+
+		console.log("started");
+
+		setTimeout(()=>console.log("hello"),1000);
+
+		for(var i=1;i<=10;i++)
+		{
+			console.log("end"+i);
+		}
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

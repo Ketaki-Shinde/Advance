@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<script type="text/javascript">
+		//ajax 
+		
+		var promise=fetch("https:/jsonplaceholder.typicode.com/posts");
+		promise.then(d=>d.json()).then(d=>console.log(d));
+	</script>
+</head>
+<body>
+
+</body>
+</html>

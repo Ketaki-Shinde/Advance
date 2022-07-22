@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function iseven(n) 
+		{
+			return a%2==0;
+		}
+
+		function m1(sum,ele)
+		{
+			console.log('element:${ele} sum=${sum}');
+			sum=sum+ele;
+			return sum;
+		}
+		var ar=[1,2,13,4,10];
+		//var ar=[12,33,56,23,67,2];
+
+		//var a=ar.filter(iseven);
+
+		var b=ar.filter((n)=>n%3==0);
+		console.log(b);
+
+		var c=ar.map((element)=>element+2);
+		console.log(c);
+
+		var sum=ar.reduce((sum,d)=>sum=sum+d);
+		console.log("sum ="+sum);
+
+		var nm=["Ketaki","Sonam","Utkarsh","Mayur","Aditya"];
+		nm.sort();
+		console.log(nm);
+		ar.sort((n1,n2)=>n1<n2?-1:+1);
+		console.log(ar);
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

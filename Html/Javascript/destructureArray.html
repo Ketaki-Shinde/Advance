@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		let [x,y,z]=[10,20,30];
+		console.log(`x=${x}  y=${y}  z=${z}`);
+
+
+		let a=10,b=20;
+		[a,b]=[b,a];
+		console.log(`a=${a}  b=${b}`);
+
+		function Calculator(a,b) 
+		{
+			console.log("in calculator");	
+			return [a+b,a*b,a-b];
+		}
+
+
+		var [sum,prod,sub]=Calculator(4,6);
+		console.log(sum);
+		console.log(prod);
+		console.log(sub);
+
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

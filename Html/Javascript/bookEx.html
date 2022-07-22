@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+	function Book(id,bname,authernm,prize)
+	{
+		this.bid=id;
+		this.booknm=bname;
+		this.auther=authernm;
+		this.prize=prize;
+		this.display=function()
+					 {
+					 	alert("Book Id : "+this.bid+" Book Name : "+this.booknm+" Author : "+this.auther+" Prize : "+this.prize);
+					 }
+	};
+
+	var b1= new Book(1,"c#","Abc",1500);
+	var b2= new Book(2,"Java","xyz",2000);
+	console.log(b1);
+	console.log(b2);
+	b1.display();
+	b2.display();
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
